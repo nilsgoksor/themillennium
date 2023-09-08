@@ -1,6 +1,9 @@
 <script>
   import { onMount } from "svelte";
   import "../app.css";
+  import Celebrate from "$lib/Celebrate.svelte";
+  import Spaceship from "$lib/Spaceship.svelte";
+
 
   let audio;
   onMount(async () => {
@@ -9,6 +12,8 @@
 </script>
 
 <h1 class="animate-charcter">Y2K2023</h1>
+<Celebrate />
+<div class="spaceship-container"><Spaceship /></div>
 <section>
   <p>
     Vi har alla länge funderat på den stora orättvisa som tilldelades vår
@@ -42,5 +47,12 @@
     background: -webkit-linear-gradient(#0ad1ad, #ea14c6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  .spaceship-container {
+    position: absolute;
+    height: 300;
+    right: 175px;
+    top: 20px;
+    opacity: 0.5;
   }
 </style>
