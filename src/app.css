@@ -6,7 +6,7 @@
     background-image: url('https://wallpapers.com/images/hd/90s-aesthetic-retrowave-neon-sunset-grid-jfe3w6yiyo66v88c.jpg');
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     height: 100%;
 }

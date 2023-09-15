@@ -162,7 +162,7 @@
     position: absolute;
     height: 300;
     right: 175px;
-    top: 20px;
+    bottom: 190px;
     opacity: 0.5;
   }
 
