@@ -121,7 +121,7 @@
         Förmodligen! Skriv till Herman/Alexander/Joel och fråga, först till
         kvarn gäller eftersom lokalen har ett maxantal.
       </p>
-      <p class="animate-charcter">Vilken är den bästa låten från 90-talet?”</p>
+      <p class="animate-charcter">Vilken är den bästa låten från 90-talet?</p>
       <p>
         Alexander - Wonderwall <br />
         Herman - Vi drar till fjällen <br />
