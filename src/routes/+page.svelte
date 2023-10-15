@@ -21,6 +21,10 @@
 <audio src="markoolio.mp3" bind:this={markoolioAudio} />
 <audio src="wonderwall.mp3" bind:this={wonderwallAudio} />
 
+<svelte:head>
+  <title>Y2K23</title>
+</svelte:head>
+
 <h1 class="animate-charcter">Y2K23</h1>
 <Celebrate />
 <div class="spaceship-container"><Spaceship /></div>
