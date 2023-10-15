@@ -47,6 +47,9 @@
       class:selected={menuIndex === 2}
       on:click={() => (menuIndex = 2)}>FAQ</button
     >
+    <a href="https://forms.gle/dB1ME3syTjMKrN8G6" target="_blank">
+      <button class="menu-button">Anmälan</button></a
+    >
   </div>
   {#if menuIndex === 0}
     <section>
