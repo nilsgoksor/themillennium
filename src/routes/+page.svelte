@@ -21,7 +21,7 @@
 <audio src="markoolio.mp3" bind:this={markoolioAudio} />
 <audio src="wonderwall.mp3" bind:this={wonderwallAudio} />
 
-<h1 class="animate-charcter">Y2K2023</h1>
+<h1 class="animate-charcter">Y2K23</h1>
 <Celebrate />
 <div class="spaceship-container"><Spaceship /></div>
 <div class="dvd" />
