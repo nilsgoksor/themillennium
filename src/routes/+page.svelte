@@ -39,13 +39,13 @@
     >
       Information
     </button>
-    <button
+    <!-- <button
       class="menu-button"
       class:selected={menuIndex === 1}
       on:click={() => (menuIndex = 1)}
     >
       Förfest
-    </button>
+    </button> -->
     <button
       class="menu-button"
       class:selected={menuIndex === 2}
